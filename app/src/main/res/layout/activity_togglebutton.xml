@@ -29,6 +29,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ToggleButton
+        android:id="@+id/toggleButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.154"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.09" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -62,7 +74,8 @@
         android:id="@+id/toggleButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
         android:text="ToggleButton"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="458dp" />
+        tools:layout_editor_absoluteY="464dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
